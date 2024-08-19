@@ -1,7 +1,7 @@
-name: hello-world
+name: build-Demo
 on: push
 jobs: 
-  hello-world-job:
+  build-job:
     runs-on: ubuntu-latest
     steps: 
       - name: Check out repository code
